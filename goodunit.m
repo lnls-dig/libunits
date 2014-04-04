@@ -4,7 +4,7 @@ if nargin < 3
     interpreter = '';
 end
 
-if strcmpi(type, 'tex')
+if strcmpi(interpreter, 'tex')
     prefixes = {'y', 'z', 'a', 'f', 'p', 'n', '\mu', 'm', '', 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y'};
 else
     prefixes = {'y', 'z', 'a', 'f', 'p', 'n', 'u', 'm', '', 'k', 'M', 'G', 'T', 'P', 'E', 'Z', 'Y'};
