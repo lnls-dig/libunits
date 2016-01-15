@@ -1,5 +1,5 @@
 function volt = dbm2volt(dbm, R)
-%DBM2VOLT Convert dBm to Volt unit.
+%DBM2VOLT Convert dBm to Volts (RMS) unit.
 %
 %   volt = dbm2volt(dbm, R)
 %
